@@ -62,11 +62,11 @@ const Contact = () => {
             <div className="pt-8">
               <h4 className="font-semibold text-gray-900 mb-4">Koneksi Profesional</h4>
               <div className="flex space-x-4">
-                <a href="#" className="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2">
+                <a href="#" className="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 active:scale-95" aria-label="Buka LinkedIn">
                   <Linkedin size={20} />
                   LinkedIn
                 </a>
-                <a href="mailto:rifqiabdan26@gmail.com" className="bg-red-600 text-white p-3 rounded-lg hover:bg-red-700 transition-colors flex items-center gap-2">
+                <a href="mailto:rifqiabdan26@gmail.com" className="bg-red-600 text-white p-3 rounded-lg hover:bg-red-700 transition-colors flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 active:scale-95" aria-label="Kirim email">
                   <Mail size={20} />
                   Email
                 </a>
