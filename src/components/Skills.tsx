@@ -3,7 +3,7 @@ const Skills = () => {
     {
       title: "Web Development",
       skills: [
-        { name: "JavaScript", level: "Mahir", years: 3 },
+        { name: "JavaScript", level: "Menengah", years: 3 },
         { name: "Front-End Development", level: "Mahir", years: 3 },
         { name: "HTML/CSS", level: "Mahir", years: 4 },
         { name: "Responsive Design", level: "Menengah", years: 3 }
@@ -15,8 +15,8 @@ const Skills = () => {
       skills: [
         { name: "Data Visualization", level: "Menengah", years: 2 },
         { name: "Data Processing", level: "Menengah", years: 2 },
-        { name: "Algorithm & Logic", level: "Mahir", years: 3 },
-        { name: "Problem Solving", level: "Mahir", years: 4 }
+        { name: "Algorithm & Logic", level: "Menengah", years: 3 },
+        { name: "Problem Solving", level: "Menengah", years: 4 }
       ],
       badge: "green"
     },
@@ -33,10 +33,10 @@ const Skills = () => {
     {
       title: "Design & Tools",
       skills: [
-        { name: "AutoCAD", level: "Mahir", years: 3 },
-        { name: "Technical Drawing", level: "Mahir", years: 3 },
-        { name: "Building Information Modeling", level: "Menengah", years: 2 },
-        { name: "Project Documentation", level: "Mahir", years: 3 }
+        { name: "AutoCAD", level: "Menengah", years: 3 },
+        { name: "Technical Drawing", level: "Menengah", years: 3 },
+        { name: "Building Information Modeling", level: "Pemula", years: 1 },
+        { name: "Project Documentation", level: "Menengah", years: 3 }
       ],
       badge: "orange"
     }

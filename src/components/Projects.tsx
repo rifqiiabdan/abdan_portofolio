@@ -1,34 +1,34 @@
 import { ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
+import proyek1 from "./images/proyek1.jpg";
+import proyek2 from "./images/proyek2.jpg";
+import proyek3 from "./images/proyek3.jpg";
 
 const Projects = () => {
   const certifications = [
     {
-      title: "Belajar Fundamental Front-End Web Development",
-      description: "Pembelajaran mendalam tentang pengembangan front-end modern, termasuk HTML5, CSS3, responsive design, dan best practices dalam web development.",
-      tech: ["HTML5", "CSS3", "Responsive Design", "Web Standards"],
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=300&fit=crop",
-      provider: "Dicoding",
-      demoUrl: "#",
-      codeUrl: "#"
+      title: "Warung Nusantara",
+      description: "Landing page restoran bertema kuliner Indonesia dengan hero dinamis, navigasi rapi, dan CTA ke menu.",
+      tech: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+      image: proyek1,
+      provider: "Personal Project",
+      demoUrl: "https://restaurant-porto.vercel.app/"
     },
     {
-      title: "Belajar Fundamental Pemrosesan Data",
+      title: "Rimbawa 360",
+      description: "Aplikasi web edukasi konservasi yang menyajikan direktori spesies, artikel, dan cerita pengguna, dilengkapi peta interaktif serta forum diskusi. Antarmuka responsif, cepat, dan dapat diakses offline (PWA) untuk pengalaman pengguna yang nyaman.",
+      tech: ["HTML5", "CSS3","JavaScript","Webpack","Node.js","MySQL"],
+      image: proyek2,
+      provider: "Dicoding",
+      demoUrl: "https://github.com/rifqiiabdan/rimbawa-360",
+    },
+    {
+      title: "Eco Vision",
       description: "Memahami teknik-teknik fundamental dalam pemrosesan data, termasuk cleaning, transformation, dan analysis untuk menghasilkan data yang berkualitas.",
-      tech: ["Data Processing", "Data Cleaning", "ETL", "Analysis"],
-      image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=500&h=300&fit=crop",
+      tech: ["ReactJS +Tailwind","FastAPI","Python + Scikit-learn","GitHub + Colab"],
+      image: proyek3,
       provider: "Dicoding",
-      demoUrl: "#",
-      codeUrl: "#"
-    },
-    {
-      title: "AutoCAD & Building Information Modeling",
-      description: "Keahlian dalam desain teknik dan pemodelan informasi bangunan dari latar belakang pendidikan SMK dengan fokus pada teknologi konstruksi modern.",
-      tech: ["AutoCAD", "BIM", "Technical Drawing", "3D Modeling"],
-      image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=500&h=300&fit=crop",
-      provider: "SMK Negeri 3 Tegal",
-      demoUrl: "#",
-      codeUrl: "#"
+      demoUrl: "https://ecovision-beta.vercel.app/",
     }
   ];
 
@@ -45,7 +45,7 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {certifications.map((cert, index) => (
-            <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+            <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 h-full flex flex-col">
               <div className="relative overflow-hidden">
                 <img 
                   src={cert.image} 
@@ -57,7 +57,7 @@ const Projects = () => {
                 </div>
               </div>
               
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-1">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3 line-clamp-2">{cert.title}</h3>
                 <p className="text-gray-600 mb-4 line-clamp-3">{cert.description}</p>
                 
@@ -69,7 +69,7 @@ const Projects = () => {
                   ))}
                 </div>
                 
-                <div className="flex gap-3">
+                <div className="flex gap-3 mt-auto">
                   <Link
                     to={`/projects/${encodeURIComponent(cert.title.toLowerCase().replace(/\s+/g, '-'))}`}
                     state={{ project: cert }}

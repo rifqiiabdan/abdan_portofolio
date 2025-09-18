@@ -53,7 +53,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Status</h4>
-                  <p className="text-gray-600">Mahasiswa Aktif & Terbuka untuk Kolaborasi</p>
+                  <p className="text-gray-600">Mahasiswa Lulusan IT & Terbuka untuk Kolaborasi</p>
                 </div>
               </div>
             </div>
@@ -62,7 +62,7 @@ const Contact = () => {
             <div className="pt-8">
               <h4 className="font-semibold text-gray-900 mb-4">Koneksi Profesional</h4>
               <div className="flex space-x-4">
-                <a href="#" className="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 active:scale-95" aria-label="Buka LinkedIn">
+                <a href="https://www.linkedin.com/in/moh-rifqi-abdan-04b52a30a/" className="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 active:scale-95" aria-label="Buka LinkedIn">
                   <Linkedin size={20} />
                   LinkedIn
                 </a>

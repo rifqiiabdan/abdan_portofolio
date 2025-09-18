@@ -15,7 +15,7 @@ const About = () => {
               Passion untuk Web Development & Computer Networking
             </h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Saya adalah mahasiswa aktif di Universitas Mercu Buana Yogyakarta jurusan Teknik Informatika 
+              Saya adalah mahasiswa lulusan di Universitas Mercu Buana Yogyakarta jurusan Teknik Informatika 
               dengan minat besar dalam bidang Web Development dan Computer Networking. Berbekal latar belakang 
               pendidikan teknik dan berbagai pelatihan mandiri, saya terus mengembangkan keterampilan di dunia 
               pemrograman, visualisasi data, serta pengembangan web front-end.

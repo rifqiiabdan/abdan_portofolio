@@ -37,9 +37,9 @@ const Hero = () => {
               📍 Tegal, Indonesia
             </p>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl">
-              Mahasiswa aktif Teknik Informatika di Universitas Mercu Buana Yogyakarta dengan minat besar 
-              dalam Web Development dan Computer Networking. Passionate dalam pembelajaran berkelanjutan 
-              dan pengembangan solusi teknologi yang memberikan dampak nyata.
+            Lulusan Teknik Informatika dari Universitas Mercu Buana Yogyakarta dengan minat besar dalam Web Development dan 
+            Computer Networking. Passionate dalam pembelajaran berkelanjutan dan pengembangan solusi 
+            teknologi yang memberikan dampak nyata.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <button 
